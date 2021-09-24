@@ -1,11 +1,9 @@
 using System.ComponentModel.DataAnnotations;
-using System.Runtime.InteropServices;
-using System;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
-namespace OCTO_CRUD.Models 
+namespace OCTO_CRUD.Models
 {
     public class Address 
     {
@@ -27,7 +25,6 @@ namespace OCTO_CRUD.Models
         [Column(TypeName = "nvarchar(250)")]
         [DisplayName("CEP")]
         public string ZipCode { get; set; }
-
 
         [Column(TypeName = "nvarchar(250)")]
         [DisplayName("Forma de Cobrança")]
