@@ -1,14 +1,11 @@
 ﻿@model IEnumerable<OCTO_CRUD.Models.Client>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Clientes";
 }
 
-<h1>Index</h1>
+<h4>Clientes</h4>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -30,7 +27,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.CommercialPhone)
             </th>
-            <th></th>
+            <th>
+                <a asp-action="AddOrEdit">Novo</a>
+            </th>
         </tr>
     </thead>
     <tbody>

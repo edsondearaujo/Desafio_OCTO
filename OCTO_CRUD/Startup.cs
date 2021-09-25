@@ -49,8 +49,13 @@ namespace OCTO_CRUD
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapRazorPages(); endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}");
             });
+
+
+            //Como alternativa
+            /*app.UseEndpoints(endpoints =>
+            { endpoints.MapRazorPages(); endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}"); });*/
         }
     }
 }
