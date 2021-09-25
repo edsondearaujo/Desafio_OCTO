@@ -1,16 +1,14 @@
 ﻿@model OCTO_CRUD.Models.Client
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Cadastro";
 }
 
-<h1>Edit</h1>
-
-<h4>Client</h4>
+<h1>Cadastro</h1>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="AddOrEdit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="IdClient" />
             <div class="form-group">
@@ -44,7 +42,7 @@
                 <span asp-validation-for="CommercialPhone" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Salvar" class="btn btn-primary" />
             </div>
         </form>
     </div>
