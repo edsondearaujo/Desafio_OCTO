@@ -20,13 +20,13 @@ Em seguida, foi iniciado os estudos da linguagem C# e o framework ASP.NET, assim
 ## Diagrama de Classes
 &emsp;&emsp;Como uma primeira versão do diagrama de classes, foi construído o seguinte diagrama.
 ### Versão 1.0
-![Diagrama de classes](../../Assets/Octo_diagram_classe_V01.png)
-<center>[Figura 1: Diagrama de classes v1](../../Assets/Octo_diagram_classe_V01.png)</center>
+![Diagrama de classes](OCTO_CRUD/Assets/Octo_diagram_classe_V01.png)
+<center>[Figura 1: Diagrama de classes v1](../../OCTO_CRUD/Assets/Octo_diagram_classe_V01.png)</center>
 
 &emsp;&emsp;Com o prazo da entrega se aproximando, foi tomada a decição de reeplanejar a estrutura do sistema na intenção de tornar o desenvolvimento menos complicado. Então, segue uma versão mais próxima do que foi desenvolvido no projeto.
 ### Versão 1.1
-![Diagrama de classes](../../Assets/Octo_diagr_classe_V02.png)
-<center>[Figura 1: Diagrama de classes v1](../../Assets/Octo_diagr_classe_V02.png)</center>
+![Diagrama de classes](OCTO_CRUD/Assets/Octo_diagr_classe_V02.png)
+<center>[Figura 1: Diagrama de classes v1](../../OCTO_CRUD/Assets/Octo_diagr_classe_V02.png)</center>
 
 ## Tecnologias
 
